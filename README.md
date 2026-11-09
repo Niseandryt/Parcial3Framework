@@ -1,6 +1,6 @@
 ## Configuración e inicio
 
-Desde la carpeta del proyecto, ejecuta los siguientes comandos:
+Desde la carpeta del proyecto inventario-api, ejecuta los siguientes comandos:
 
 ```bash
 composer install
@@ -19,3 +19,8 @@ Al iniciar el servidor, abre la URL que muestra Artisan (normalmente `http://127
 ## Vue
 
 Para Vue hay menos pasos, dichos pasos estan en el README.md en inventario-web generados por defecto
+
+```bash
+npm install
+npm run serve
+```
