@@ -197,7 +197,7 @@ onMounted(cargarProductos)
                     <td>{{ producto.id }}</td>
                     <td>{{ producto.nombre }}</td>
                     <td>{{ producto.descripcion }}</td>
-                    <td>{{ producto.precio }}</td>
+                    <td>${{ producto.precio }}</td>
                     <td>{{ producto.stock }}</td>
                     <td>
                         <button @click="modoEdicion(producto)">Editar</button>
