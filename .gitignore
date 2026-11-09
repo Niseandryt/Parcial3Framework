@@ -1,0 +1,30 @@
+inventario-api/vendor
+inventario-api/.env
+inventario-api/node_modules
+
+
+inventario-web/node_modules
+inventario-web/.env
+inventario-web/.DS_Store
+inventario-web/node_modules
+inventario-web/dist
+
+
+# local env files
+inventario-web/.env.local
+inventario-web/.env.*.local
+
+# Log files
+inventario-web/npm-debug.log*
+inventario-web/yarn-debug.log*
+inventario-web/yarn-error.log*
+inventario-web/pnpm-debug.log*
+
+# Editor directories and files
+inventario-web/.idea
+inventario-web/.vscode
+inventario-web/*.suo
+inventario-web/*.ntvs*
+inventario-web/*.njsproj
+inventario-web/*.sln
+inventario-web/*.sw?
