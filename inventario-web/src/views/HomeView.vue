@@ -147,7 +147,7 @@ onMounted(cargarProductos)
 </script>
 
 <template>
-    <h1>Gestión de Productos</h1>
+    <h3>Gestión de Productos</h3>
     <form @submit.prevent="productoEditando ? editarProducto() : crearProducto()">
         <p>
             <label>Nombre
